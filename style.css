@@ -8,8 +8,8 @@
     color: white;
     background-color: #333333;
     display: flex;
-    padding: 10px 10px; 
-    
+    padding: 10px 10px;
+
 
 }
 
@@ -17,9 +17,9 @@ a {
     text-decoration: none;
     color: white;
     margin-left: 25px;
-  
-   display: inline;
-  
+
+    display: inline;
+
 
 }
 
@@ -29,33 +29,33 @@ a {
 }
 
 .jotta {
-   margin-left: 55%;
-   
+    margin-left: 55%;
+
 }
 
 .meio {
     background-color: #4F46E5;
     color: #ffffff;
     height: 300px;
-   
-   
-   
+
+
+
 }
 
 .botom1 {
-     background-color: azure;
-     border: none;
-     width: 130px;
-     height: 47px; 
-     border-radius: 5px;
-     margin-left: 690px;
-     margin-top: 100px;
-     color: #4F46E5; 
-     font-size: 15px;
-     cursor: pointer;
-     font-weight: 500;
-     transition: opacity 0.5s ease;
-     
+    background-color: azure;
+    border: none;
+    width: 130px;
+    height: 47px;
+    border-radius: 5px;
+    margin-left: 690px;
+    margin-top: 100px;
+    color: #4F46E5;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: opacity 0.5s ease;
+
 
 }
 
@@ -63,7 +63,7 @@ a {
     margin-left: 580px;
     position: relative;
     top: 75px;
-    
+
 }
 
 .bv1 {
@@ -71,18 +71,176 @@ a {
     position: relative;
     top: 73px;
     font-size: 25px;
-    
+
 }
+
+.botom1:active {
+    transform: scale(0.95); /* dá a sensação de estar "apertando" */
+
+  }
 
 .botom1:hover {
     opacity: 0.8;
 }
 
 .final {
-     margin-top: 100px;
-     margin-left: 215px;
+    margin-top: 100px;
+    margin-left: 215px;
 }
 
-.final2 {
-  
+
+
+
+input {
+    border-radius: 4px;
+    display: block;
+    width: 85%;
+    height: 25px;
+    margin-top: 15px;
+    padding: 10px;
 }
+
+.botom2 {
+    background-color: #4F46E5;
+    border: none;
+    height: 30px;
+    width: 87%;
+    color: white;
+    border-radius: 3px; 
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+
+}
+.botom2:active {
+    transform: scale(0.98); /* dá a sensação de estar "apertando" */
+    
+  }
+
+
+textarea {
+    margin-top: 15px;
+    width: 85%;
+    height: 80px;
+    border-radius: 3px; 
+    padding: 10px;
+   
+}
+.botom2:hover {
+     opacity: 0.7;
+}
+
+.end {
+    margin-top: 70px;
+}
+
+.cabou {
+    background-color: #333333;
+    color: #ffffff;
+    height: 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    transition: transform 0.3s ease;
+  }
+  
+  h1:hover {
+    transform: translateX(5px);
+  }
+
+@media screen and (max-width: 950px) {
+    body {
+        width: 100vw;
+       
+    }
+
+
+    .meio {
+        display: block;
+        margin-left: 0;
+        height: 300px;
+    }
+    
+    a {
+        color: rgb(255, 255, 255); 
+        margin-left: -130px;
+        display: block;
+        margin-top: 5px;
+
+    }
+
+    .botom1 {
+        margin-left: 140px;
+        margin-top: 118px;
+       
+    }
+
+    .final {
+        margin-left: 0;
+    }
+
+    .topo {
+        height: 170px;
+    }
+
+    .jotta {
+        margin-top: 66px;
+        font-size: 12px;
+        padding-top: 55px;
+        position: relative;
+        top: -80px;
+        margin-left: 102px;
+    }
+
+    .dotopo {
+       margin-left: 135px;
+       font-size: 30px;
+     
+    }
+
+    .link {
+        position: relative;
+        left: -55px;
+        top: 10px;
+        font-size: 17px;
+        
+    }
+
+    .bv1 { 
+        margin-left: 57px;
+    }
+
+    .bv {
+        margin-left: 25px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .outra {
+        position: relative;
+        left: -65px;
+        top: 10px;
+        font-size: 17px;
+        
+    }
+
+
+    .final {
+        margin-left: 45px;
+        font-size: 16px;
+        
+    }
+}
+
+
+
+  
+  
+  
+  
+  
+  
